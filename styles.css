@@ -1,0 +1,32 @@
+#container {
+  border: black 1px solid;
+  display: flex;
+  margin: 40px;
+  width: 650px;
+  height: 650px;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+.columns {
+  border: 1px black solid;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.rows {
+  border: 1px black solid;
+  display: flex;
+  flex-grow: 1;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rows:hover {
+  background-color: black;
+}
